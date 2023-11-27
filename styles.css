@@ -20,6 +20,11 @@ h2 {
   font-weight: normal;
   line-height: 1.5;
 }
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
 
 .hero {
   background: whitesmoke;
@@ -34,4 +39,21 @@ h2 {
   font-size: 18px;
   line-height: 20px;
   padding: 12px 20px;
+}
+
+.solutions-description {
+  padding: 120 60px 0;
+}
+
+.row {
+  padding: 40px 20px;
+}
+@media (max-width: 760px) {
+  .solutions-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero {
+  padding: 80px 20px;
 }
