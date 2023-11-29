@@ -88,6 +88,10 @@ nav li.active a {
   padding: 120 60px 0;
   background-size: cover;
 }
+.img-fluid {
+  margin: 5px;
+  padding: 5px;
+}
 
 .row {
   padding: 80px 20px;
@@ -97,6 +101,7 @@ footer .demo-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
+  background-size: cover;
 }
 
 footer .demo-box p {
